@@ -23,7 +23,7 @@ Spring Communication:
 
 Shortcuts :)
 
-docker run --name postgresdb -p 5432:5432 -e POSTGRES_PASSWORD=password -e POSTGRES_USER=matthias -e POSTGRES_DB=mydb -d postgres:latest
+docker run --name hftdb -p 5432:5432 -e POSTGRES_PASSWORD=password -e POSTGRES_USER=matthias -e POSTGRES_DB=hftdb -d postgres:latest
 
 mvn -f backend spring-boot:run -Dspring.profiles.active=prod -Dserver.port=8090
 
