@@ -1,0 +1,4 @@
+applications:
+- name: todo-frontend
+  instances: 1
+  path: target/todo-frontend-0.0.1-SNAPSHOT.jar
