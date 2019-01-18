@@ -21,6 +21,12 @@ External Config:
 Spring Communication:
 - https://gitpitch.com/maeddes/gitpitch-spring-communication
 
+K8s and CF:
+- https://docs.google.com/presentation/d/1Q36kXMj6R3VuIP4L6Q_ub2qu0Hkwrey445xrY7VJZE4/edit?usp=sharing
+
+Cloud Foundry:
+- https://gitpitch.com/maeddes/gitpitch-cloudfoundry
+
 Shortcuts :)
 
 docker run --name hftdb -p 5432:5432 -e POSTGRES_PASSWORD=password -e POSTGRES_USER=matthias -e POSTGRES_DB=hftdb -d postgres:latest
